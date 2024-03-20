@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(26, 26, 26);
+    color: darkgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.first, .second, .third {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: darkgrey;
+}
+
+button {
+    background-color: whitesmoke;
+    color: darkslateblue;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.continue, .back {
+    background-color: whitesmoke;
+    color: darkslateblue;
+    border: 2px solid darkslateblue;
+}
+
+.continue:hover, .back:hover {
+    background-color: darkslateblue;
+    color: whitesmoke;
+}
+
+.final {
+    background-color: palegreen;
+}
+
+.hbd {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 7vw;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(34, 34, 34);
+}
+
+img {
+    width: 50vw;
+    height: auto;
+    border-radius: 17px;
+    border: 2px solid darkslateblue;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: darkslateblue;
+}
+
+.para {
+    font-size: larger;
+    width: 70vw;
+}
+
+.footer {
+    font-size: large;
+    align-self: flex-end;
+}
